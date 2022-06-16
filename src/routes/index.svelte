@@ -3,7 +3,20 @@
     import HeroImgLeft from "../components/hero-img-left.svelte";
     import HeroImgTop from "../components/hero-img-top.svelte";
     </script>
-    
+
+    <!-- Hero Section -->
+    <section class="p-8 bg-white">
+        <h1 class="text-6xl text-red-500 py-4">Welcome to Soda UI</h1>
+        <h2 class="text-4xl my-4">An Open Source UI component library built on Svelte and TailwindCSS.</h2>
+        <p class="my-8">Soda UI is a Svelte JS and Tailwind CSS UI library. It was created by <a class="text-red-500" href="https://brijr.dev">Bridger Tower</a> and <a class="text-red-500" href="https://cameronyoungblood.dev">Cameron Youngblood</a> in 2022. Updated regularly.</p>
+    </section> 
+
+    <!-- Components Start -->
+
+    <!-- Hero Components -->
+    <h2 class="text-4xl m-8 mt-12">Hero Section Components</h2>
+    <div class="bg-slate-700 h-px m-8"></div>
+
     <h3 class="text-2xl mx-8 mt-12">Hero Section with no Image</h3>
     <div class="drop-shadow-md bg-white mx-8 my-4 rounded-xl">
         <!-- Fake Browser Head Section -->
