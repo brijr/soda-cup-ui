@@ -3,7 +3,7 @@
     import "../app.css";
 </script>
 
-<body class="bg-cyan-50">
+<body class="bg-slate-300">
     <NavBasic/>
     <slot/>
 </body>
